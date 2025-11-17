@@ -6,6 +6,7 @@ Yêu Cầu và Khởi Động
 ![alt text](image.png)
 
 ## Cấu trúc database 
+```sql
  TABLE products
 (
     product_id TEXT PRIMARY KEY,
@@ -16,6 +17,8 @@ Yêu Cầu và Khởi Động
     CHECK (price > 0),
     CHECK (quantity >= 0)
 );
+
+```
 
 
 
